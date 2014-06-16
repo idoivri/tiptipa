@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "marker-symbol": "water",
+        "marker-symbol": "danger",
         "שם עיר": "צפת",
         "מחוז": "צפון",
         "רגישות": "1",
@@ -29,7 +29,7 @@
         ]
       },
       "properties": {
-        "marker-symbol": "water",
+        "marker-symbol": "danger",
         "שם עיר": "קרית שמונה",
         "מחוז": "צפון",
         "רגישות": "1",
