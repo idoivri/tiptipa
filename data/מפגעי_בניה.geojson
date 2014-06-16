@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         35.51514244,
+         32.95806604
+        ]
+      },
+      "properties": {
+        "marker-symbol": "commercial",
+        "שם עיר": "צפת",
+        "מחוז": "צפון",
+        "רגישות": "1",
+        "גודל המפגע": "1",
+        "פגיעה נופית - נצפית": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.56965638,
+        33.20947847
+        ]
+      },
+      "properties": {
+        "marker-symbol": "commercial",
+        "שם עיר": "קרית שמונה",
+        "מחוז": "צפון",
+        "רגישות": "1",
+        "גודל המפגע": "1",
+        "פגיעה נופית - נצפית": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.44473684,
+        33.0258462
+        ]
+      },
+      "properties": {
+        "marker-symbol": "commercial",
+        "שם עיר": "גוש חלב",
+        "מחוז": "צפון",
+        "רגישות": "1",
+        "גודל המפגע": "1",
+        "פגיעה נופית - נצפית": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.78050023,
+        33.21080902
+        ]
+      },
+      "properties": {
+        "marker-symbol": "commercial",
+        "שם עיר": "בוקעאתה",
+        "מחוז": "צפון",
+        "רגישות": "1",
+        "גודל המפגע": "1",
+        "פגיעה נופית - נצפית": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   
+        35.21246355,
+        32.953943603
+        ]
+      },
+      "properties": {
+        "marker-symbol": "commercial",
+        "שם עיר": "ירכא",
+        "מחוז": "צפון",
+        "רגישות": "1",
+        "גודל המפגע": "1",
+        "פגיעה נופית - נצפית": "1"
+      }
+    }
+  ]
+}
