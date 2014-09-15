@@ -30,7 +30,7 @@
 <body>
 	<div id="map"></div>
 
-	<script src="data/clinics.js"></script>
+	<script src="data/historic_sites.js"></script>
 	<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 
 	<script type="text/javascript">
@@ -42,7 +42,7 @@
 		    popupAnchor	: [0, -35]
 		});
 
-		var WEEKDAYS = ['א','ב','ג','ד','ה','ו','ש'];
+		//var WEEKDAYS = ['א','ב','ג','ד','ה','ו','ש'];
 
 		String.prototype.trim = String.prototype.trim || function trim() { return this.replace(/^\s\s*/, '').replace(/\s\s*$/, ''); };
 
@@ -50,18 +50,13 @@
 			// console.log(layer);
 
 			p = feature.properties
-			phone = p.phones.split(',')[0].trim();
 
 			marker_html='<div style="text-align: right">'
-							+ '<b>' + p.city + '</b><br />'
-							+ p.address + '<br />'
-							+ '<a href="tel:' + phone + '">' + phone + '</a><br />';							
+							+ '<b>' + p.site-name + '</b><br />';
+							//+ p.address + '<br />'
+							+ '<a href="link:' + p.thumbnail + '">' + קישור + '</a><br />';							
 			
-			for (i in WEEKDAYS) {
-				if (typeof p.days[i] != 'undefined' && p.days[i].trim() != "סגור") {
-					marker_html += 'יום ' + WEEKDAYS[i] + ' ' + p.days[i] + '<br />';
-				}
-			}
+			
 
 			marker_html +='</div>';
 
