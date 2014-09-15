@@ -47,7 +47,7 @@
         ]
       },
       "properties": {
-        "marker-symbol": "water",
+        "marker-symbol": "danger",
         "שם עיר": "גוש חלב",
         "מחוז": "צפון",
         "רגישות": "1",
@@ -65,7 +65,7 @@
         ]
       },
       "properties": {
-        "marker-symbol": "water",
+        "marker-symbol": "danger",
         "שם עיר": "בוקעאתה",
         "מחוז": "צפון",
         "רגישות": "1",
@@ -83,7 +83,7 @@
         ]
       },
       "properties": {
-        "marker-symbol": "water",
+        "marker-symbol": "danger",
         "שם עיר": "ירכא",
         "מחוז": "צפון",
         "רגישות": "1",
