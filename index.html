@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>טיפה.לי - טיפת חלב ליד הבית</title>
+	<title>תיקי שימור לבנים המיועדים לשימור</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -35,14 +35,15 @@
 
 	<script type="text/javascript">
 
-		var milkIcon = L.icon({
-	    	iconUrl		: 'img/TipatHalavIcon40x25.png',
-		    iconSize	: [25, 40],
+		var siteIcon = L.icon({
+	    	//iconUrl		: 'https://raw.githubusercontent.com/johnantoni/maki/gh-pages/renders/town-hall-24.png',
+		    iconUrl		: 'img/town-hall.png',
+		    iconSize	: [36, 36],
 		    iconAnchor	: [13, 39],
 		    popupAnchor	: [0, -35]
 		});
 
-		//var WEEKDAYS = ['א','ב','ג','ד','ה','ו','ש'];
+		
 
 		String.prototype.trim = String.prototype.trim || function trim() { return this.replace(/^\s\s*/, '').replace(/\s\s*$/, ''); };
 
@@ -52,9 +53,16 @@
 			p = feature.properties
 
 			marker_html='<div style="text-align: right">'
-							+ '<b>' + p.site-name + '</b><br />';
+							+ '<b>' + p.sitename + '</b><br/><br/>'
+							+ 'כתובת: ' + p.address + '<br />'
+							+ 'גוש: ' + p.gush + '<br />'
+							+ 'חלקה:  ' + p.helka + '<br />'
+							+ 'שנת הקמה:' + p.contruction_year + '<br />'
+							+ 'תאריך יצירת תיק שימור:  ' + p.preservation_file_date + '<br />'
+							+ 'יוצרי תיק השימור: ' + p.file_editor_1 + ',' +  p.file_editor_2 + '<br />'
 							//+ p.address + '<br />'
-							+ '<a href="link:' + p.thumbnail + '">' + קישור + '</a><br />';							
+							+ '<a href="' + p.link_to_file + '" target="_blank">' + 'קישור לתיק השימור' + '</a><br /><br />'
+							+ '<IMG SRC="' + p.thumbnail +'" WIDTH=160 HEIGHT=160>';							
 			
 			
 
@@ -86,7 +94,7 @@
 		L.geoJson(stations,
 			{
 				pointToLayer: function (feature, latlng) {
-		        	return L.marker(latlng, {icon: milkIcon});
+		        	return L.marker(latlng, {icon: siteIcon});
 		    	},
 
 				filter: function(feature, layer) {
@@ -97,6 +105,7 @@
 		).addTo(map);
 	</script>
 
+<!--
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -107,6 +116,7 @@
 	  ga('send', 'pageview');
 
 	</script>
+-->
 </body>
 </html>
 <!- Jerusalem, summer 2013 -->
