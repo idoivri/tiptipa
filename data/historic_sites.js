@@ -116,8 +116,9 @@ var stations = {
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/dif4gkled4acqmq/%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C2%BA%2B%C3%96%2B%C2%BF%2B%C3%B2%2B%C2%BF_-__%2B%C2%A2%2B%C3%B1%2B%C2%BF_%2B%C3%B9%2B%C3%AD%2B%C3%96%2B%C3%B4%2B%C3%96%2B%C2%A5_-_%2BP%2B%C3%B3%2B%C2%AC%2B%C3%B6_%2B%C2%AC%2B%C3%96%2BP%2B%C3%B2%2B%C2%BF.pdf?dl=0",
         "thumbnail" : ""
-      },
-      {
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
