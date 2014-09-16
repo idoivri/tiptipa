@@ -23,7 +23,7 @@ var stations = {
         "file_editor_2" : "אדר' לילך גינת נוימרק",
         "file_editor_3" : "",
         "link_to_file" : "https://www.dropbox.com/s/ppys5ly5hjeklbg/%2B%C2%AC%2B%C3%96%2B%C2%BA_%2B%C2%AC%2B%C3%96%2B%C3%B3%2B%C3%B2%2B%C3%B4_%2B%C3%A6%2B%C3%96%2B%C2%AC_%2B%C3%B6%2B%C2%A2%2B%C3%A1%2B%C3%AD%2B%C2%AC_%2B%C3%A6%2B%C3%A6%2B%C2%AC_%2B%C2%AC%2B%C2%A3%2BP%2B%C3%B6.pdf?dl=0",
-        "thumbnail" : ""
+        "thumbnail" : "data/bat-shlomo.png"
       }
     },
     {
